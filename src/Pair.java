@@ -1,0 +1,17 @@
+/**
+ * Class for encapsulating a key-value pair.
+ */
+public class Pair<K, V> {
+    K key;
+    V value;
+
+    /**
+     * Creates a key-value pair.
+     * @param key   the specified key to encapsulate
+     * @param value the value to associate with the key
+     */
+    Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+}
